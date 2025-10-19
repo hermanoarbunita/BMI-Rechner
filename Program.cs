@@ -34,7 +34,7 @@ else if (weight > 220)
 Console.WriteLine();
 Console.WriteLine("Jetzt brauchen wir noch deine Grösse");
 Console.WriteLine("");
-Console.WriteLine("Gib jetzt deine grösse in m an");
+Console.WriteLine("Gib jetzt deine grösse in m (z.B. 1.75) an");
 string inputHeight = Console.ReadLine();
 double height = double.Parse(inputHeight);
 
@@ -75,4 +75,5 @@ Console.WriteLine();
 Console.WriteLine($"Dein BMI beträgt {bmi:F2}. Gemäss BMI-Tabelle ist das {rating}.");
 Console.WriteLine();
 Console.WriteLine();
+
 Console.WriteLine();
