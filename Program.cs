@@ -34,7 +34,7 @@ else if (weight > 220)
 Console.WriteLine();
 Console.WriteLine("Jetzt brauchen wir noch deine Grösse");
 Console.WriteLine("");
-Console.WriteLine("Gib jetzt deine grösse in m (z.B. 1.75) an");
+Console.WriteLine("Gib jetzt deine Grösse in m (z.B. 1.75) an");
 string inputHeight = Console.ReadLine();
 double height = double.Parse(inputHeight);
 
@@ -77,3 +77,4 @@ Console.WriteLine();
 Console.WriteLine();
 
 Console.WriteLine();
+
